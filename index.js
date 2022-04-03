@@ -12,5 +12,10 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  tutorials.map((each) => {
+    each.toUpperCase()
+  })
   return tutorials
 }
+
+//each = value in array
